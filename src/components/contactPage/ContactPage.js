@@ -11,25 +11,25 @@ const Contact = () => {
     const contactOptions = [
         {
             contactMethod: "linkedin",
-            url: "https://www.linkedin.com/in/nneka-tielman/",
+            url: "https://www.linkedin.com/in/r-lokesh/",
             iconName: faLinkedin,
             showOn: "both"
         },
         {
             contactMethod: "github",
-            url: "https://github.com/NTielman",
+            url: "https://github.com/LokeshNivash/",
             iconName: faGithubSquare,
             showOn: "dev"
         },
         {
             contactMethod: "instagram",
-            url: "https://www.instagram.com/unsuprvsd/?hl=en",
+            url: "https://www.instagram.com/lokesh_nivash/",
             iconName: faInstagram,
-            showOn: "des"
+            showOn: "dev"
         },
         {
             contactMethod: "gmail",
-            url: "mailto:khalienne@gmail.com",
+            url: "mailto:nivashnisa@gmail.com",
             iconName: faEnvelopeSquare,
             showOn: "both"
         },
@@ -42,7 +42,7 @@ const Contact = () => {
                 <h2>Contact Me</h2>
                 <h3>Don't be a stranger!</h3>
 
-                <p>If you have any questions or just want to say hi,<br /> shoot me an email. <br /> I'd love to hear from you!</p>
+                <p>If you have any questions or just want to say hai,<br /> shoot me an email. <br /> I'd love to hear from you!</p>
             </div>
 
             <div className='social-links-container'>

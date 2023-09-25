@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 import FilterMenu from '../filterMenu/FilterMenu';
 import DevProject from './DevProject';
-import DesProject from './DesProject';
+// import DesProject from './DesProject';
 import DevButton from '../button/DevButton';
 
 import { featured_projects as devProjects } from '../../utils/devProjects';
@@ -69,9 +69,7 @@ const Projects = () => {
             <div className='projects-container'>
                 {visibleProjects.map(proj => {
                     if (devMode) {
-                        return (<DevProject project={proj} key={proj.key} />)
-                    } else {
-                        return (<DesProject project={proj} key={proj.key} />);
+                        return (<DevProject project={proj} key={proj.key} />);
                     }
                 })}
             </div>

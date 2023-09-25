@@ -1,20 +1,20 @@
 const devBio = {
-    description: `Hello! I'm Nneka, a full-stack developer based in The Hague who enjoys building engaging things with code. I develop exceptional websites and web apps that provide awe-inducing, pixel-perfect user experiences with clean, efficient, and scalable code.
+    description: `👋Hello Everyone I am Lokesh, You can call me Loki🙏
+    I am the fusion of engineering precision and artistic ingenuity – a Mechatronics maven who speaks the language of pixels, lines of code, and captivating visuals.
 
-    Shortly after completing a 9-month full-stack course from Winc Academy, I joined the development team at Bravoure as a front-end intern where I work on a wide variety of interesting and meaningful projects on a daily basis.
+    My passion for design is a perpetual wellspring of innovation, and my ambition knows no bounds.
     
-    Here are a few technologies I've been working with recently:`,
+    Here are a few Projects I've been working with recently:`,
     tools: [
-        'JavaScript (ES6+)',
-        'React',
-        'Node.js',
-        'HTML & (S)CSS',
-        'Vue',
-        'Python',
-        'GSAP'],
+        'Adobe photoshop',
+        'Adobe Illustrator',
+        'Adobe Premier Pro',
+        'Adobe After Effects',
+        'Davinci Resolve',
+        'Blender'],
     image: '/assets/images/about/devAvatar.png',
     webpImage: '/assets/images/about/devAvatar.webp',
-    caption: 'Depiction of Nika "C-137" cooking up a master plan'
+    // caption: 'Depiction of Nika "C-137" cooking up a master plan'
 }
 
 export default devBio;

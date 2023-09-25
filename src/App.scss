@@ -139,33 +139,25 @@ label {
 
 /* Nav Menu */
 @import "components/navMenu/nav";
-@import "components/navMenu/designNav";
 @import "components/navMenu/devNav";
-
-/* Togglebar */
-@import "components/toggleBar/togglebar";
 
 /* Home Page */
 @import "components/homePage/home";
 @import "components/homePage/devHome";
-@import "components/homePage/designHome";
 
 /* About Page */
 @import "components/aboutPage/about";
-@import "components/aboutPage/designAbout";
 @import "components/aboutPage/devAbout";
 
 /* Filter Menu */
 @import "components/filterMenu/filterMenu";
-@import "components/filterMenu/designFilters";
 @import "components/filterMenu/devFilters";
 
 /* Projects Page */
 @import "components/projectsPage/projects";
-@import "components/projectsPage/designProjects";
+// @import "components/projectsPage/designProjects";
 @import "components/projectsPage/devProjects";
 
 /* Contact Page */
 @import "components/contactPage/contact";
 @import "components/contactPage/devContact";
-@import "components/contactPage/designContact";

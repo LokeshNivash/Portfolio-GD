@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 
 import devBio from '../../utils/devBio';
-import designBio from '../../utils/desBio';
+// import designBio from '../../utils/desBio';
 
 const About = () => {
 
@@ -18,8 +18,6 @@ const About = () => {
     useEffect(() => {
         if (devMode) {
             setBio(devBio);
-        } else {
-            setBio(designBio);
         }
     }, [devMode]);
 
