@@ -4,7 +4,7 @@ const devBio = {
 
     My passion for design is a perpetual wellspring of innovation, and my ambition knows no bounds.
     
-    Here are a few Projects I've been working with recently:`,
+    Here are a few Softwares, I've been working with recently:`,
     tools: [
         'Adobe photoshop',
         'Adobe Illustrator',
